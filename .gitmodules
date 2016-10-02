@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/sust4in/sust4in.github.io.git
