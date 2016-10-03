@@ -29,7 +29,6 @@ TIMEZONE = 'Europe/Istanbul'
 THEME = 'Flex'
 
 LOAD_CONTENT_CACHE = False
-DISPLAY_CATEGORIES_ON_MENU = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['sitemap', 'post_stats', 'i18n_subsites']
@@ -41,6 +40,10 @@ DATE_FORMATS = {
 
 
 MAIN_MENU = True
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
 
 
 DEFAULT_LANG = 'tr'
@@ -111,3 +114,4 @@ EXTRA_PATH_METADATA = {
 CUSTOM_CSS = 'static/custom.css'
 
 USE_LESS = True
+USE_FOLDER_AS_CATEGORY = False
