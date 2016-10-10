@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Ogulcan Gurcaglar'
 
 SITENAME = "Ogulcan Gurcaglar"
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://sust4in.github.io'
 SITENAME = "Ogulcan Gurcaglar's Blog"
 SITETITLE = AUTHOR
 SITESUBTITLE = 'Read and :wq'
