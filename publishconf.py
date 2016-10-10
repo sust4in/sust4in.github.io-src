@@ -17,8 +17,6 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = False
-SITEURL = 'https://sust4in.github.io'
-RELATIVE_URLS = False
 USE_LESS = False
 
 GOOGLE_ANALYTICS = "UA-85018984-1"
